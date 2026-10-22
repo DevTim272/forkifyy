@@ -5,7 +5,7 @@
   "license": "ISC",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --no-scope-hoist"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.4",
