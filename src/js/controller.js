@@ -51,7 +51,8 @@ const  controlSearchResults = async function () {
     resultsView.renderSpinner();
     //1) get search query
   const query = searchView.getQuery();
-    
+    if (!query) return;
+
     
 
     //load search results
@@ -63,7 +64,8 @@ const  controlSearchResults = async function () {
     
   }
   catch(err){
-    console.log(err);
+    
+    resultsView.renderError()
   }
   
 };

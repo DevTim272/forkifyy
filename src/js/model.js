@@ -58,7 +58,7 @@ export const loadSearchResults = async function (query) {
       
     }
     catch(err){
-          console.error(`${err} boom`);
+          
           throw err;
           
     }
