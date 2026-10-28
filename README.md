@@ -2,7 +2,7 @@
 
 Forkify is a recipe search application built with JavaScript. It allows users to search for recipes, view recipe details, and adjust ingredient quantities based on servings.
 
-**Live Demo:** [View Forkify](https://forkifyy-3v11pegaq-timeyin-corp.vercel.app/)
+**Live Demo:** [View Forkify](https://forkifyy-five.vercel.app)
 
 **Repository:** [GitHub](https://github.com/DevTim272/forkifyy)
 
